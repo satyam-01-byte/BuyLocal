@@ -1,0 +1,15 @@
+.searchBar {
+  min-width: 25vw;
+  min-height: 5vh;
+  margin: auto;
+  /* margin-left: 40rem; */
+  margin-bottom: 2vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.searchBar:focus {
+  outline: 2px solid rgb(16, 212, 16);
+}
+.placeHolderMessage {
+  display: none;
+  font-size: 2rem;
+}

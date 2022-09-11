@@ -1,0 +1,13 @@
+/*PaymentScreen*/
+.paymentForm {
+  align-items: center;
+}
+
+.payment {
+  min-height: 79.5vh;
+}
+
+.paymentForm .option {
+  margin-left: 30%;
+}
+/*Payment Screen*/

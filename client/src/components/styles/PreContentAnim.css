@@ -1,0 +1,54 @@
+.animationPage {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.animationPage > div {
+  background-color: var(--white);
+  margin: 2rem;
+  width: 20rem;
+  box-shadow: 0 0 3px var(--black);
+  border-radius: 10px;
+  height: 10rem;
+}
+
+.animationPage > div > div:nth-of-type(1) {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: grey;
+}
+
+.animationPage > div > div:nth-of-type(2) {
+  background-color: grey;
+  width: 100px;
+  height: 20px;
+}
+
+.animationPage > div > div:nth-of-type(2) > div > * {
+  background-color: grey;
+  width: 30px;
+  margin: 10px;
+}
+
+.animated-bg {
+  background-image: linear-gradient(
+    to right,
+    #f6f7f8 0%,
+    #edeef1 10%,
+    #f6f7f8 20%,
+    #f6f7f8 100%
+  );
+  background-size: 200% 100%;
+  animation: bgPos 1s linear infinite;
+}
+
+@keyframes bgPos {
+  0% {
+    background-position: 50% 0;
+  }
+
+  100% {
+    background-position: -150% 0;
+  }
+}

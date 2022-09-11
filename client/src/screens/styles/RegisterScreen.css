@@ -1,0 +1,10 @@
+.signUpHeading {
+  color: green;
+  font-family: monospace;
+}
+.signUpFormRedirect {
+  font-family: monospace;
+}
+.signUpFormRedirect a {
+  color: #028a0f;
+}

@@ -1,0 +1,16 @@
+/*Order screen*/
+.orderScreen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  overflow-x: hidden;
+}
+
+#orderId {
+  max-width: 90vw;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+}
+/*order screen*/

@@ -1,0 +1,39 @@
+/*ProductScreen*/
+
+/*ProductsFromShopScreen*/
+#categories {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95vw;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  background-color: var(--color2);
+  width: 100vw;
+  height: 50px;
+}
+
+#categories figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+#categories figure img {
+  position: absolute;
+  top: -60px;
+}
+
+#categories figure figcaption {
+  margin-bottom: -30px;
+}
+
+#categories img {
+  width: 70px;
+  height: 70px;
+}
+/*ProductsFromShopScreen*/

@@ -1,0 +1,36 @@
+/*profile screen*/
+.orders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ordersTable tbody tr td i {
+  color: var(--text-color);
+}
+
+.ordersTable th {
+  background: var(--color1);
+}
+
+.ordersTable th,
+td {
+  padding: 3px;
+  border: 0.5px solid var(--color3);
+}
+
+.ordersTable tr:nth-child(even) {
+  background-color: var(--tr-color);
+}
+
+.ordersTable tr:hover {
+  background-color: var(--tr-color-hover);
+}
+
+@media (max-width: 400px) {
+  .orders {
+    transform: scale(0.85);
+  }
+}
+/*profile screen*/

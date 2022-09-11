@@ -1,0 +1,32 @@
+.googlefb {
+  margin-bottom: 0;
+}
+
+.googlefb i {
+  margin: 5px 10px;
+  font-size: larger;
+  padding: 5px;
+}
+
+.googlefb i:hover {
+  border-radius: 10px;
+  border: 5px solid grey;
+  cursor: pointer;
+}
+
+/*seller logo for all pages other than seller-home*/
+.sellerLogoRest {
+  position: absolute;
+  top: -10px;
+  left: 5px;
+}
+
+.sellerLogo a,
+.sellerLogoRest a {
+  color: var(--color1);
+}
+
+.sellerLogo a:hover,
+.sellerLogoRest a:hover {
+  color: var(--color1-hover);
+}

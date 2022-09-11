@@ -1,0 +1,104 @@
+/*pages with form*/
+.formPage {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  margin: 4rem;
+}
+
+/*forms with headings*/
+.formPage p {
+  color: var(--black);
+}
+
+/*form type*/
+/* .typeForm {
+  display: flex;
+  flex-direction: column;
+} */
+
+.typeForm input {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  width: 30vw;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--black);
+  cursor: auto;
+}
+
+.typeForm .fa-eye-slash,
+.typeForm .fa-eye {
+  color: var(--text-color-alt);
+  margin-left: auto;
+  margin-top: -57px;
+  padding: 0 4px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.typeForm #strengthBar {
+  height: 4px;
+  margin-top: -20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 0%;
+  margin-left: 10px;
+}
+
+.typeForm textarea,
+span {
+  margin-bottom: 30px;
+}
+
+/*form submit button*/
+.formBtn {
+  background: var(--color1);
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: 600;
+  padding: 10px 90px; /*10px 0px*/
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  color: var(--text-color);
+}
+
+.formBtn:hover {
+  background: var(--color1-hover);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.formBtn:active {
+  transform: scale(0.95);
+}
+
+/*go-to links in form*/
+.formLink {
+  color: var(--black);
+}
+
+.formLink a {
+  margin-top: 20px;
+  color: var(--color1);
+  /* background: var(--linear-gradient-zero); */
+  margin-left: 5px;
+}
+
+.formLink a:hover {
+  border-bottom: 2px solid var(--color2);
+}
+
+/*forms with radio options*/
+.typeForm .option {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.typeForm .option label,
+input {
+  cursor: pointer;
+}

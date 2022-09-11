@@ -1,0 +1,76 @@
+/*flex*/
+.frcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fccc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fcdd {
+  display: flex;
+  flex-direction: column;
+}
+
+.fcdc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frbd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.frcd {
+  display: flex;
+  justify-content: center;
+}
+
+.frdc {
+  display: flex;
+  align-items: center;
+}
+
+.fredw {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.frcdw {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.frccw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fcds {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.frbc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fred {
+  display: flex;
+  justify-content: space-evenly;
+}
+/*flex*/

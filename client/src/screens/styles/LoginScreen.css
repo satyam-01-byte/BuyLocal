@@ -1,0 +1,21 @@
+.loginHeading {
+  color: green;
+  font-family: monospace;
+}
+.typeForm label {
+  font-family: monospace;
+  margin-bottom: 2px;
+}
+
+.formBtn {
+  background: #02aa42;
+}
+.formBtn:hover {
+  background: #028a0f;
+}
+.registerRedirectLoginPage {
+  font-family: monospace;
+}
+.registerRedirectLoginPage a {
+  color: #028a0f;
+}

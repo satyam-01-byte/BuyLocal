@@ -1,0 +1,89 @@
+/*sellers*/
+/*SellersRegister*/
+#sellerDetailsForm,
+#sellerAddressForm {
+  display: none;
+}
+/*SellersRegister*/
+
+/*SellersScreen*/
+.sellersPage .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.sellersPage .pageCenter {
+  margin-top: 20vh;
+}
+/*SellersScreen*/
+
+/*StoresScreen*/
+.item h3,
+h4 {
+  margin: 0.5rem;
+  text-align: center;
+}
+/*StoresScreen*/
+
+/*SellerScreen*/
+.sellerHeader {
+  position: sticky;
+  top: 0;
+  background-color: var(--color2);
+}
+
+.storeDetails {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.storeInfo h3 {
+  text-align: center;
+  margin: 0 7px;
+}
+
+.storeLinks {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--text-color-alt);
+}
+
+.productSection {
+  margin: 20px;
+}
+
+#newProduct {
+  padding: 10px;
+}
+
+@media (max-width: 360px) {
+  .storeLinks a {
+    transform: scaleX(0.7);
+  }
+}
+/*SellerScreen*/
+
+/*SellerOrdersScreen*/
+.sellerOrderPaymentInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+/*SellerProductsScreen*/
+#sellerProduct {
+  position: relative;
+}
+
+#sellerProduct > i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/*sellers*/

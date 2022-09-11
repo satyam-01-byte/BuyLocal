@@ -1,0 +1,24 @@
+.footerDiv {
+  width: 100vw;
+  text-align: center;
+  background-color: var(--color2);
+  padding: 8px;
+  font-size: 15px;
+  position: sticky;
+  top: 92vh;
+  height: 8vh;
+  grid-template-columns: 100px auto;
+  display: grid;
+}
+
+.footerText {
+  margin: auto;
+  margin-right: 2vw;
+}
+
+.social {
+  grid-template-columns: 30px 30px;
+}
+.copyrightText {
+  padding: 10px;
+}

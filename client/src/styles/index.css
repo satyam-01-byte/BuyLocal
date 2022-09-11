@@ -1,0 +1,169 @@
+* {
+  /* border: 0.01px solid #000; */
+  box-sizing: border-box;
+}
+
+/*common to all*/
+
+/*body*/
+body {
+  font-family: var(--font-family);
+  background: var(--white);
+  color: var(--black);
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+/*alternative link-button*/
+
+/*links*/
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--black);
+}
+
+/*search bars*/
+/* .searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.searchBar input {
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #000;
+  font-size: 15px;
+}
+
+/*make content at the center of page*/
+.pageCenter {
+  margin-top: 30vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; */
+}
+
+/*list Items on a page*/
+
+p:nth-child(n) {
+  color: var(--black);
+  text-align: center;
+}
+
+/*quantity box*/
+.qtyForm {
+  display: flex;
+  align-items: center;
+}
+
+.qtyForm p {
+  background-color: var(--text-color);
+  color: var(--black);
+  padding: 7px 20px;
+}
+
+.qtyForm input {
+  width: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 0;
+  border: none;
+  background-color: var(--text-color);
+  color: var(--text-color-alt);
+}
+
+.quantityChange {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 4.5px;
+  background-color: var(--text-color);
+  color: var(--success);
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+/*mapBox*/
+
+/*common to all*/
+
+/*components*/
+/*Header*/
+
+/*drop-down menu*/
+.dropbtn {
+  background: none;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: var(--dropdown-bg);
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px var(--text-color-alt);
+  z-index: 1;
+  right: -8px;
+}
+
+.dropdownContent > p {
+  color: var(--text-color-alt);
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dropdownContent > p > * {
+  color: var(--text-color-alt);
+}
+
+.dropdownContent > p:hover {
+  background-color: var(--dropdown-bg-hover);
+}
+/*Header*/
+
+/*Rating*/
+.star i {
+  color: var(--warning);
+}
+/*Rating*/
+
+/*Checkout Steps*/
+.checkoutSteps {
+  display: flex;
+}
+
+.checkoutSteps a {
+  text-decoration: none;
+  margin: 10px;
+  text-align: center;
+  color: var(--text-color);
+}
+/*checkout steps*/
+/*components*/
+
+/*users*/
+/*LocateScreen*/
+
+/*LocateScreen*/
+
+/*ProductScreen*/
+/* .productPage {
+  display: flex;
+  justify-content: center;
+} */
+
+/*users*/

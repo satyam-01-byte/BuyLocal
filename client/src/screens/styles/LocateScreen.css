@@ -1,0 +1,92 @@
+.locateScreen {
+  height: 92vh;
+}
+
+.locateScreenLogoTagline {
+  background-color: var(--color3);
+}
+
+.locateScreenLogoTagline h1 {
+  color: var(--color1);
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.locateScreenLogoTagline h3 {
+  color: var(--color2);
+}
+
+.loginLink {
+  background: var(--color2);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  color: var(--white);
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.loginLink:hover {
+  background: var(--color1);
+}
+
+.locateForm i {
+  font-size: 30px;
+  margin-right: 5px;
+  color: var(--black);
+}
+
+.locateScreenFormLink {
+  font-size: large;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.locationSubmitButton {
+  text-decoration: none;
+  margin-top: 20px;
+  width: 250px;
+  padding: 10px;
+  color: var(--white);
+  background: var(--color2);
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.locationSubmitButton:hover {
+  background: var(--color1);
+}
+
+@media (max-width: 600px) {
+  .locateScreenHeader {
+    background-color: var(--color3);
+    height: 90px;
+  }
+
+  .locateScreenLogoTagline h1 {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+  }
+
+  .locateScreenLogoTagline h3 {
+    display: none;
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 18rem;
+  height: 25rem;
+  padding: 0 10px;
+  margin: 10px;
+}
