@@ -1,5 +1,5 @@
-# Locer Web App
-An e-commerce platform for the **local marketplace**. We aim to *digitize* and *organize* the entire local market **improving reach, sales and modernize the process of buying and selling**. 
+# Shop-local Web App
+An e-commerce platform for the **local marketplace** that aims to *digitize* and *organize* the entire local market **improving reach, sales and modernize the process of buying and selling**. 
 
 ## Features for customers:
 - [X] View all the shops and their products in your location right on your phone
@@ -18,9 +18,9 @@ An e-commerce platform for the **local marketplace**. We aim to *digitize* and *
 ## API link for development: 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/9d43dcd9272c1d327a6c)
 
-## [Click](https://locerappdemo.herokuapp.com) to view project progress.
+### [Click](https://shop-local57.herokuapp.com) to view the live project.
 
-## Technologies we're using:
+## Technologies used:
 * React-JS
 * MongoDB
 * Node.js

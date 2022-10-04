@@ -39,7 +39,7 @@ const LocateScreen = ({ history }) => {
       <div className="locateScreenHeader">
         <div className="locateScreenLogoTagline fccc">
           <img
-            src="images/logo.png"
+            src="images/logo.jpeg"
             alt="Logo"
             width={150}
             style={{ cursor: "pointer" }}
