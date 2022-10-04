@@ -9,7 +9,7 @@ const SellersScreen = () => {
     <div className="sellersPage">
       <div className="header">
         <h2 className="sellerLogo">
-          <Link to="/sellers">Locer</Link>
+          <Link to="/sellers">ShopLocal</Link>
         </h2>
 
         <div className="navLinks">

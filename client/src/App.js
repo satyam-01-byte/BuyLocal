@@ -1,5 +1,4 @@
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import SellerHeader from "./components/SellerHeader";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import LocateScreen from "./screens/LocateScreen";

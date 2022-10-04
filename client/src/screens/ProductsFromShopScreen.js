@@ -1,14 +1,8 @@
 import React, { useState, useEffect } from "react";
-// import { products } from "../products";
-//import Products from "../components/Products";
-// import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { listProducts } from "../actions/productActions";
-//import Loader from "../components/Loader";
 import PreContentAnimation from "../components/PreContentAnimation";
-import Rating from "../components/Rating";
 import ProductDetails from "../components/ProductDetails";
-import SearchBar from "../components/SearchBar";
 import { catAndSub } from "../constants/catAndSubConstants";
 
 /**
@@ -31,7 +25,6 @@ const ProductsFromShopScreen = ({ match }) => {
     }
   }
   const storeId = match.params.id;
-  // const [products, setProducts] = useState([]);
   const [popupStoreId, setPopupStoreId] = useState("");
   const [popupProductId, setPopupProductId] = useState("");
   const [popupVisibility, setPopupVisibility] = useState(false);

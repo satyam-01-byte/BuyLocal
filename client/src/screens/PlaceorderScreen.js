@@ -7,7 +7,6 @@ import { clearCartItems } from "../actions/cartActions";
 import Loader from "../components/Loader";
 import { listStores } from "../actions/storeActions";
 import "./styles/PlaceOrderScreen.css";
-import { CART_ADD_ITEM } from "../constants/cartConstants";
 
 //either placeorder with COD or head to razorpay
 
@@ -15,23 +14,12 @@ const PlaceorderScreen = ({ history }) => {
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart);
   const { cartItems, shippingAddress, paymentMethod } = cart;
-  let currentStoreId = cartItems.length > 0 ? cartItems[0].storeId : null;
 
   if (!shippingAddress) history.push("/shipping");
   else if (!paymentMethod) history.push("/payment");
 
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
-
-  const storeList = useSelector((state) => state.storeList);
-  const { stores } = storeList;
-
-  let currentStore, freeDeliveryAmount;
-  if (storeList.loading === false) {
-    currentStore = stores.filter((store) => store._id === currentStoreId);
-    freeDeliveryAmount =
-      currentStore.length > 0 && currentStore[0].freeDeliveryAmount;
-  }
 
   const userLocation = JSON.parse(localStorage.getItem("userLocation"));
 
@@ -40,13 +28,10 @@ const PlaceorderScreen = ({ history }) => {
   }, [dispatch, userLocation]);
 
   cart.itemsPrice = cartItems
-    .reduce((acc, item) => acc + item.qty * item.discountedPrice, 0)
+    .reduce((acc, item) => acc + item.qty * item.price, 0)
     .toFixed(2);
   let savings = cartItems
-    .reduce(
-      (acc, item) => acc + item.qty * (item.price - item.discountedPrice),
-      0
-    )
+    .reduce((acc, item) => acc + item.qty * (item.price - item.price), 0)
     .toFixed(2);
   cart.shippingPrice = (25).toFixed(2);
   cart.discount =
@@ -134,8 +119,8 @@ const PlaceorderScreen = ({ history }) => {
                         </Link>
                       </h5>
                       <p>
-                        {item.qty} x Rs. {item.discountedPrice} = Rs.{" "}
-                        {(item.qty * item.discountedPrice).toFixed(2)}
+                        {item.qty} x Rs. {item.price} = Rs.{" "}
+                        {(item.qty * item.price).toFixed(2)}
                       </p>
                       <Link to={`/stores/${item.storeId}/products`}>
                         {item.storeName}

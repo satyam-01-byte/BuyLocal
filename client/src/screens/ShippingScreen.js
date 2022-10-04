@@ -141,49 +141,6 @@ const ShippingScreen = ({ history }) => {
           onChange={(e) => setAddress(e.target.value)}
           required
         />
-        {/* <label htmlFor="city">City: </label>
-        <input
-          type="text"
-          id="city"
-          placeholder="Enter your city"
-          value={city}
-          onChange={(e) => setCity(e.target.value)}
-          required
-        />
-        <label htmlFor="state">State: </label>
-        <select
-          name="state"
-          id="state"
-          // value={state}
-          onChange={(e) => setState(e.target.value)}
-          required
-          style={{ marginBottom: "30px" }}
-        >
-          <option value="Andhra Pradesh">Andhra Pradesh</option>
-          <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-          <option value="Assam">Assam</option>
-          <option value="Bihar">Bihar</option>
-        </select>
-        <label htmlFor="postal code">Postal code: </label>
-        <input
-          type="number"
-          min="100000"
-          max="999999"
-          id="postal code"
-          placeholder="Enter your postal code"
-          value={postalCode}
-          onChange={(e) => setPostalCode(e.target.value)}
-          required
-        /> */}
-        {/* <label htmlFor="country">Country: </label>
-        <input
-          type="text"
-          id="country"
-          placeholder="Enter your country"
-          value={country}
-          onChange={(e) => setCountry(e.target.value)}
-          required
-        /> */}
         <button type="submit" className="formBtn">
           Save
         </button>

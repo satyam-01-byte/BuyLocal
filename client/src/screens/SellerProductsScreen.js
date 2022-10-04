@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import PreContentAnimation from "../components/PreContentAnimation";
 import { catAndSub } from "../constants/catAndSubConstants";
-import SearchBar from "../components/SearchBar";
 
 //all the products seller has for sale
 
