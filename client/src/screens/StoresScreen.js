@@ -47,7 +47,7 @@ const StoresScreen = ({ match }) => {
             <SearchBar />
             {stores.length ? (
               <div className="searchBarAndMessage">
-                <h2>Stores near you</h2>
+                {/* <h2>Stores near you</h2> */}
                 {/* <SearchBar style={{ marginLeft: "4rem" }} /> */}
               </div>
             ) : (

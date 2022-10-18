@@ -15,7 +15,9 @@ const LocateScreen = ({ history }) => {
     if (
       location === "847211" ||
       location === "734103" ||
-      location === "324005"
+      location === "324005" ||
+      location === "841301" ||
+      location === "711103"
     ) {
       ele.style.display = "none";
       localStorage.setItem("userLocation", JSON.stringify(location));
@@ -46,11 +48,11 @@ const LocateScreen = ({ history }) => {
           />
         </div>
 
-        {!userInfo && (
+        {/* {!userInfo && (
           <Link to="/login" className="loginLink">
             Log In
           </Link>
-        )}
+        )} */}
       </div>
 
       <div className="container-fluid mt-5 p-5">
@@ -67,7 +69,7 @@ const LocateScreen = ({ history }) => {
               type="search"
               name="location"
               id="location"
-              placeholder="Enter pincode"
+              placeholder="Enter pincode: Try 841301"
               required={true}
               onChange={(e) => setLocation(e.target.value)}
             />

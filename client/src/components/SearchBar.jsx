@@ -38,7 +38,7 @@ const SearchBar = ({style}) => {
         <div className="center">
             <input type = "text" id ="searchBar" placeholder="Search"  
             className="searchBar rounded-pill m-3 p-2" onChange={() => searchFunction()} ref ={inputRef} style={style}/>
-            <div className="placeHolderMessage">
+            <div className="placeHolderMessage" style={{textAlign: "center"}}>
               No Matching Results
             </div>
         </div>
