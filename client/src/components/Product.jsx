@@ -43,8 +43,7 @@ const Product = (productInfo) => {
     <div className="item" id='productPopped' style={{ height: "30rem",  maxWidth:"1000px", width:"85vw", zIndex:"1000", display: "flex", justifyContent: "space-evenly" }}>
       {/* <i class="fas fa-times-circle" onClick={() => closePopup()}></i> */}
       
-      <img src={`https://res.cloudinary.com/locer/image/upload/v1629819047/locer/products/${product.filename.startsWith("https") ? product.filename.split('/')[7] : product.filename}`} alt="product-pic" style={{width: '20rem'}}/>
-      {console.log(product.filename)}
+      <img src={`https://res.cloudinary.com/locer/image/upload/v1629819047/locer/products/${product.filename?.startsWith("https") ? product.filename?.split('/')[7] : product.filename}`} alt="product-pic" style={{width: '20rem'}}/>
 
       <div className="info">
         <h3>
